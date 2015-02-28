@@ -26,4 +26,8 @@
       <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
     </feature>
 
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+
+
 </widget>
