@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "br.com.antoniodesouza.phonegap.camera"
+    versioncode = "1"
+    version     = "1.0.0">
+
+    <name>
+    	PhoneGap Camera
+    </name>
+
+    <description>
+        Exemplo de camera phonegap
+    </description>
+
+    <author href="http://antoniodesouza.com.br"
+    		email="contato@antoniodesouza.com.br">
+        Antonio de Souza
+    </author>
+
+    <content src="index.html"/>
+    <access origin="*" />
+
+    <feature name="Camera">
+      <param name="ios-package" value="CDVCamera" />
+      <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+
+</widget>
